@@ -14,10 +14,9 @@ The project needs to be cloned on local machine to check the output.
 
 ## Languages
 * HTML5
-* Bootstrap
-* Async Functions
 * JavaScript
-## IDE Used
+
+## Source-code editor Used
 * VS Code
 
 ## Walkthrough
