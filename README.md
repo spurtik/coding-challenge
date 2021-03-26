@@ -40,3 +40,6 @@ Multiplied by the conversion factor of 250 gives a cubic weight of 6kg.
    productHtmlList.push(productHtml);
    document.getElementById('category-container').innerHTML = productHtmlList.join('<br>');
 
+# Setup
+* Clone this repository
+* 
