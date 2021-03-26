@@ -1,5 +1,5 @@
 const cubicWeight = new calculateAverageCubicWeight();
-const apiUrl="http://wp8m3he1wt.s3-website-ap-southeast-2.amazonaws.com";
+const apiUrl="https://wp8m3he1wt.s3-website-ap-southeast-2.amazonaws.com";
 
 const createHtml = (categoryValue = {}) => {
   const html = `
