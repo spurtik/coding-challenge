@@ -58,7 +58,7 @@ const getEntireProductsList = async function(pageNo = 1) {
             categorySizeWidth: element.size.width,
             categorySizeHeight: element.size.height,
             cubicMeters : cubicWeight.calculateCubicMeters(element.size),
-            cubicWeightAC : cubicWeight.calculateACCubicWeight() 
+            cubicWeightAC : math.round((cubicWeight.calculateACCubicWeight()),3) 
           });
           const cubicWeightAC = cubicWeight.calculateACCubicWeight();
           cubicWeightArray.push(cubicWeightAC);//Array of All the cubic weights fo air conditioner products
@@ -72,6 +72,6 @@ const getEntireProductsList = async function(pageNo = 1) {
     })
     // render!
     document.getElementById('category-container').innerHTML = productHtmlList.join('<br>');
-    document.getElementById('average-cubicweight').insertAdjacentHTML("afterend", `<td class = "col-sm-1">${cubicWeightAverage}&nbsp&nbspkg</td>`);
+    document.getElementById('average-cubicweight').insertAdjacentHTML("afterend", `<td class = "col-sm-1">${math.round((cubicWeightAverage),3)}&nbsp&nbspkg</td>`);
 
 })();

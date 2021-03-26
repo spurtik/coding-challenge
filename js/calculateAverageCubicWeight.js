@@ -8,7 +8,7 @@ class calculateAverageCubicWeight {
             let length = size.length / 100;
             let width = size.width /100;
             let height = size.height /100;
-            this.cubicMeters = math.round((length * width * height),3);
+            this.cubicMeters = math.round((length * width * height),5);
         }
         return this.cubicMeters;
     }

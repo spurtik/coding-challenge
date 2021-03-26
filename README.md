@@ -4,7 +4,7 @@
 
 *_ Create an app that uses http://wp8m3he1wt.s3-website-ap-southeast-2.amazonaws.com/api/products/1 API End point to Find the average cubic weight for all products in the "Air Conditioners" category. _*
 
-_**Note: **_ : As I am using fetch() (active mixed content) delivered via HTTP on this pages will be blocked by default.
+_**Note: **_ : As I am using fetch() (active mixed content) delivered via HTTP on this page will be blocked by default.
 The github page is broken due to Mixed Content Issue.
 The project needs to be cloned on local machine to check the output.
 
