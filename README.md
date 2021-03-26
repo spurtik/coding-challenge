@@ -4,7 +4,7 @@
 
 *_ Create an app that uses http://wp8m3he1wt.s3-website-ap-southeast-2.amazonaws.com/api/products/1 API End point to Find the average cubic weight for all products in the "Air Conditioners" category. _*
 
-# Languages
+## Languages
 * HTML5
 * Bootstrap
 * Async Functions
@@ -40,9 +40,22 @@ Multiplied by the conversion factor of 250 gives a cubic weight of 6kg.
    productHtmlList.push(productHtml);
    document.getElementById('category-container').innerHTML = productHtmlList.join('<br>');
 
-# Setup cloning the repository on your local machine
+## Setup cloning the repository on your local machine
 * On GitHub, navigate to the main page of the repository.
 * Above the list of files, click  Code.
 ![](images/code-button.png)
-* To clone the repository using HTTPS, under "Clone with HTTPS", click on end icon . To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click on end icon . To clone a repository using GitHub CLI, click Use GitHub CLI, then click on end icon .
+* To clone the repository using HTTPS, under "Clone with HTTPS", click on end icon . To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate s, click Use SSH, then click on end icon . To clone a repository using GitHub CLI, click Use GitHub CLI, then click on end icon .
+![](images/clone.png)
 
+* Open vscode terminal or command line you are using.
+
+* Change the current working directory to the location where you want the cloned directory.
+
+* Type git clone, and then paste the URL you copied earlier.
+
+$ git clone https://github.com/spurtik/coding-challenge.git
+* > Cloning into `coding-challenge`...
+* > remote: Counting objects: 10, done.
+* > remote: Compressing objects: 100% (8/8), done.
+* > remove: Total 10 (delta 1), reused 10 (delta 1)
+* > Unpacking objects: 100% (10/10), done.
